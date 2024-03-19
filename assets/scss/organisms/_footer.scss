@@ -85,6 +85,31 @@
             }
         }
     }
+
+    &__copy {
+        display: flex;
+        background-color: var(--clr-white);
+        padding: 8px 0;
+    }
+
+    &__copyouter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__copylink {
+        a {
+            color: var(--clr-black);
+            margin: 0 4px;
+            transition: 0.3s;
+
+            &:hover {
+                color: var(--clr-red);
+                transition: 0.3s;
+            }
+        }
+    }
 }
 
 @include tablet {
@@ -131,6 +156,14 @@
         &__social {
             width: calc(100% - 16px);
             margin-top: 0px;
+        }
+
+        &__copyouter {
+            flex-direction: column;
+
+            p {
+                margin-bottom: 4px;
+            }
         }
     }
 }

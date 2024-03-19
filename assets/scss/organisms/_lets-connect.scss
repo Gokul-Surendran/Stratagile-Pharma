@@ -1,0 +1,34 @@
+.sp-connect {
+    &__outer {
+        display: flex;
+    }
+
+    &__left {
+        width: calc(50% - 16px);
+        margin: 0 8px;
+        position: relative;
+
+        img {
+            width: 100%;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+
+        .sp-connect__leftcircle {
+            position: absolute;
+            left: 30px;
+            top: 77px;
+            width: 200px;
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &__right {
+        width: calc(50% - 16px);
+        margin: 0 8px;
+    }
+}
