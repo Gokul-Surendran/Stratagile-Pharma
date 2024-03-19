@@ -102,6 +102,18 @@
     }
 }
 
+@include tablet-pro {
+    .sp-connect {
+        &__left {
+            display: flex;
+            align-items: flex-end;
+        }
+        .sp-connect__leftcircle {
+            top: 354px;
+        }
+    }
+}
+
 @include tablet {
     .sp-connect {
         &__outer {

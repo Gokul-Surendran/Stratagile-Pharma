@@ -63,6 +63,21 @@
     }
 }
 
+@include tablet-pro {
+    .sp-efficient {
+        &__out {
+            flex-direction: column;
+            .sp-button {
+                width: 100%;
+                margin-bottom: 16px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
 @include mobile-tablet  {
     .sp-efficient {
         &__out {

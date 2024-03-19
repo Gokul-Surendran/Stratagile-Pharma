@@ -61,6 +61,19 @@
 
 }
 
+@include tablet-pro {
+    .sp-banner {
+        &__left {
+            h2 {
+                font-size: 55px;
+            }
+        }
+        &__cta-out {
+            width: 85%;
+        }
+    }
+}
+
 @include tablet {
     .sp-banner {
         &__left {
