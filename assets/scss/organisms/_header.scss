@@ -1,11 +1,14 @@
 .sp-header {
-    padding: 16px 0;
+    padding: 10px 0;
     background-color: var(--clr-white);
     .bg-light {
         background-color:var(--clr-white) !important;
     }
     .navbar-expand-lg .navbar-collapse {
         justify-content: flex-end;
+    }
+    .navbar {
+        padding: 0;
     }
     .nav-link {
         color: var(--clr-black) !important;
