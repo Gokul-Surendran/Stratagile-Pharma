@@ -10,12 +10,12 @@
     font-weight: 700;
     &:hover {
         transition: 0.3s;
-        background-color: var(--clr-white);
+        background-color: transparent;
         color: var(--clr-red);
     }
 
     &--modify {
-        background-color: var(--clr-white);
+        background-color: transparent;
         border: 1px solid var(--clr-red);
         color: var(--clr-red);
         transition: 0.3s;

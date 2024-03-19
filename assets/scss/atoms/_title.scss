@@ -1,0 +1,28 @@
+.sp-title {
+    p {
+        color: var(--clr-red);
+        font-size: 28px;
+        text-align: left;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        color: var(--clr-black);
+        font-size: 45px;
+        text-align: left;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+}
+
+@include mobile-tablet {
+    .sp-title {
+        p {
+            font-size: 24px;
+        }
+        h2  {
+            font-size: 32px;
+        }
+    }
+}
