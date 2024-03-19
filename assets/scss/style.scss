@@ -12,11 +12,16 @@
 @import "atoms/title";
 
 // molecule
+@import "atoms/input";
+@import "molecules/read-more-tile";
 @import "molecules/tab";
 @import "atoms/input";
 @import "molecules/read-more-tile";
 
+
 // organisms
+@import "organisms/footer";
+@import "organisms/lets-connect";
 @import "organisms/header";
 @import "organisms/banner";
 @import "organisms/Platform-Expertise";
