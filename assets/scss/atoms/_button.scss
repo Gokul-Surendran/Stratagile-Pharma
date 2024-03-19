@@ -1,0 +1,28 @@
+.sp-button {
+    background-color: var(--clr-red);
+    border: 1px solid var(--clr-red);
+    padding: 16px;
+    color: var(--clr-white);
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 700;
+    &:hover {
+        transition: 0.3s;
+        background-color: var(--clr-white);
+        color: var(--clr-red);
+    }
+
+    &--modify {
+        background-color: var(--clr-white);
+        border: 1px solid var(--clr-red);
+        color: var(--clr-red);
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            background-color: var(--clr-red);
+            color: var(--clr-white);
+        }
+    }
+}
