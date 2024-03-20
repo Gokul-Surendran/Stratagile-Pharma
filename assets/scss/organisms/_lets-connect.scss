@@ -7,6 +7,8 @@
         width: calc(55% - 16px);
         margin: 60px 8px 0;
         position: relative;
+        display: flex;
+        align-items: flex-end;
 
         img {
             width: 100%;
@@ -17,8 +19,8 @@
 
         .sp-connect__leftcircle {
             position: absolute;
-            left: 100px;
-            top: 380px;
+            left: 140px;
+            top: 450px;
             width: 200px;
             height: 200px;
             background-position: center;
@@ -40,6 +42,7 @@
     &__right {
         width: calc(45% - 16px);
         margin: 0 8px;
+        margin-bottom: 32px;
     }
 
     &__rightcnt {
@@ -61,10 +64,29 @@
 
         .sp-input {
             margin-top: 24px;
-            width: 90%;
+            width: 95%;
+
+            .sp-button {
+                width: 100%;
+            }
+
+            span {
+                color: var(--clr-white);
+                font-size: 12px;
+                font-weight: 600;
+                &:last-child {
+                    color: #11b534;
+                    font-weight: 600;
+                    text-align: center;
+                    width: 100%;
+                    display: block;
+                    margin-top: 6px;
+                }
+            }
 
             input {
-                margin-bottom: 16px;
+                margin-bottom: 6px;
+                margin-top: 10px;
 
                 &::placeholder {
                     color: var(--clr-white);
@@ -74,6 +96,8 @@
 
             textarea {
                 max-height: 130px;
+                margin-bottom: 6px;
+                margin-top: 10px;
 
                 &::placeholder {
                     color: var(--clr-white);
@@ -99,6 +123,16 @@
         color: var(--clr-white);
         font-weight: 300;
         line-height: 1.5;
+    }
+
+    &__capcha {
+        width: 80%;
+        height: auto;
+        padding-top: 16px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 

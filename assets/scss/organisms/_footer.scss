@@ -7,13 +7,13 @@
     &__outer {
         display: flex;
         margin: 0 -8px;
+        justify-content: space-between;
     }
 
     &__logosec,
     &__contact,
     &__social {
         width: calc(33.3% - 16px);
-        margin: 0 8px;
         padding: 8px;
         position: relative;
         border-right: 0.5px solid var(--clr-white);
@@ -22,7 +22,7 @@
     &__logosec {
         p {
             line-height: 30px;
-            font-size: 16px;
+            font-size: 14px;
         }
     }
 
@@ -47,7 +47,7 @@
         align-items: center;
         margin-bottom: 16px;
         transition: 0.3s;
-        font-size: 16px;
+        font-size: 14px;
 
         a {
             color: var(--clr-white);
@@ -61,7 +61,7 @@
 
     &__contacticon {
         width: 20px;
-        margin-right: 8px;
+        margin-right: 16px;
 
         svg {
             width: 100%;
@@ -96,6 +96,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        justify-content: center;
+        font-size: 12px;
     }
 
     &__copylink {
